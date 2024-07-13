@@ -1,0 +1,12 @@
+ 1.RVO是动态避障
+ 2.弹幕可以旋转 乘欧拉角
+ 3.适配调整轴点和中心点
+ 4.SerialObject修饰的打包后转为二进制
+ 5.转为二进制包小
+ 6.配置文件比起读表的优势在于可以储存更多类型 比如GameObject,Texture
+ 7.Unity交互IOS需要mm桥接类
+ 8.在XCode中可以创建Framework,Build后可以通过link Custom Framework接入相关项目
+ 9.AABB包围盒指轴对齐碰撞盒 常用方方 方圆 圆圆
+ 10. Class是引用类型 Struct是值类型 Class在托管堆上 Sturct在堆栈上 Sturct效率高
+ 11. 接口和抽象类的区别 接口只能声明方法 每个方法必须在继承后实现 可以继承多个接口
+ 抽象类可以实现方法 只能继承一个抽象类
